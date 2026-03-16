@@ -113,4 +113,4 @@ My name is Vignesh A. I am a student and an active contributor to the Django fra
 
 - [Fixed #36741 -- Linked Model.save() bulk-friendliness discussion from bulk_update() caveats.](https://github.com/django/django/pull/20274)
 
-The Google Summer of Code 2026 programme is an incredible opportunity to deepen my involvement in my favourite web framework by working with the core contributors and community on my earlier contributions. I am very appreciative of the help that the core contributors and community members have given me so far in making my first contributions, and I am looking forward to using my time during the summer to improve the testing infrastructure of Django and provide my services.
+The Google Summer of Code 2026 programme is an incredible opportunity to deepen my involvement in my favourite web framework by working with the core contributors and community on my earlier contributions. I am very appreciative of the help that the core contributors and community members have given me so far in making my first contributions, and I am looking forward to using my time during the summer to improve the testing infrastructure of Django.
