@@ -107,6 +107,7 @@ Community Bonding Period (May)
 <br><br>
 <br><br>
 <br><br>
+<br><br>
 <div style="page-break-before: always;"></div>
 
 #### 3.4. Risks & Mitigation
