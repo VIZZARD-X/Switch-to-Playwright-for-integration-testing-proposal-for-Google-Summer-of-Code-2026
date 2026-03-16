@@ -80,19 +80,19 @@ Community Bonding Period (May)
 - Define the exact Axe ruleset mappings for the Django admin UI.
 - Draft GitHub Actions CI caching strategies to prepare for the first PR.
 
-#### Phase 1: Infrastructure & Core Apps (Weeks 1 - 4)
+#### 3.1 Phase 1: Infrastructure & Core Apps (Weeks 1 - 4)
 - Week 1: Finalize and merge ``PlaywrightTestCase`` base class with ``addClassCleanup`` async scoping. Implement the ``--playwright`` test runner flag in ``DiscoverRunner``.
 - Week 2: Implement GitHub Actions caching for Playwright browsers (``.github/workflows/tests.yml``). Ensure CI execution time parity.
 - Week 3: Migrate low-complexity core tests in ``django.contrib.auth``. Replace explicit Selenium waits with Playwright auto-waiting.
 - Week 4: Migrate tests in ``django.forms``. Monitor CI stability and eliminate any newly discovered flaky behavior.
 
-#### Phase 2: The Admin Lift & Accessibility (Weeks 5 - 8)
+#### 3.2 Phase 2: The Admin Lift & Accessibility (Weeks 5 - 8)
 - Week 5: Integrate ``axe-playwright-python`` natively into the base class. Begin migration of ``django.contrib.admin`` core navigation and login tests.
 - Week 6: Migrate admin change list tests. Replace CDP emulation hacks (``setEmulatedMedia``) with native ``page.emulate_media()``.
 - Week 7: Migrate admin form tests and inline widget tests. Replace ``trigger_resize`` hacks with deterministic viewport sizing.
 - Week 8: Apply comprehensive Axe checks across migrated admin views. Ensure all CSP log checking is ported to ``page.on('console')``.
 
-#### Phase 3: The Long Tail & Deprecation (Weeks 9 - 12)
+#### 3.3 Phase 3: The Long Tail & Deprecation (Weeks 9 - 12)
 - Week 9: Migrate ``django.contrib.messages`` and remaining smaller modules.
 - Week 10: Migrate ``django.contrib.gis``. Handle any specific edge cases with map rendering. Validate 100% feature parity with the legacy Selenium suite.
 - Week 11: Remove ``SeleniumTestCase`` entirely. Delete legacy wait helpers, custom exception handlers for Chrome 113+, and drop Selenium from CI dependencies.
