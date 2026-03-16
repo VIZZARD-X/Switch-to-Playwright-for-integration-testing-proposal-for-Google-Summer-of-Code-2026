@@ -102,6 +102,14 @@ Community Bonding Period (May)
 - Week 11: Remove ``SeleniumTestCase`` entirely. Delete legacy wait helpers, custom exception handlers for Chrome 113+, and drop Selenium from CI dependencies.
 - Week 12: Update Django's internal testing documentation (``docs/internals/contributing/writing-code/unit-tests.txt``). Final review and buffer for community feedback.
 
+#### 3.4. Risks & Mitigation
+
+| Risk | Mitigation Strategy |
+| :--- | :--- |
+| Tests passing locally but fail in CI | I'll be leveraging Playwright's Trace Viewer, which is built right in, to snag failed runs inside GitHub Actions. This will allow me to dissect the DOM and network conditions, frame by frame, at the exact moment things go sideways. |
+| Missing edge cases covered by Selenium | I'll be running both the Playwright and legacy Selenium test suites simultaneously while we transition. No Selenium tests will be dropped until we've verified identical behavior across all browser engines. |
+| Dependency Stability (Axe-core or browser driver updates) | To guarantee consistent builds and avoid any surprise disruptions, all external dependencies and Playwright browser binaries will be locked to specific versions within the CI configuration. |
+
 ### 4. About Me
 My name is Vignesh A. I am a student and an active contributor to the Django framework. I have previously authored and merged 6 Pull Requests into Django core, including
 
