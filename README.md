@@ -1,4 +1,4 @@
-# Switch-to-Playwright-for-integration-testing-proposal-for-Google-Summer-of-Code-2026
+# Django Playwright Integration Testing 2026
 **Name:** Vignesh A  
 **Organization:** Django  
 **Project:** Switch to Playwright tests for integration testing  
