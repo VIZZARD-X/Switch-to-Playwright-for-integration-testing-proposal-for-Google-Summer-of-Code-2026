@@ -1,4 +1,8 @@
 # Switch-to-Playwright-for-integration-testing-proposal-for-Google-Summer-of-Code-2026
+**Name:** Vignesh A  
+**Organization:** Django  
+**Project:** Switch to Playwright tests for integration testing  
+**Project Size:** 175 Hours (Medium)  
 ## 1. Motivation
 Django's integration tests currently lean on ``SeleniumTestCase``. Though it has served well in the past, it's plagued by sluggish run times, tests that sometimes fail because of implicit waits, and the need for fragile, browser-specific hacks to keep up with current testing demands. ``Playwright``, on the other hand, brings native auto-waiting, the ability to run tests in parallel, modern browser context isolation, and consistent APIs across different browsers.
 To streamline the process of maintaining and writing end-to-end tests for the core team, I suggest a complete shift from Selenium to Playwright for Django's integration testing suite, ultimately leading to the full retirement of SeleniumTestCase.
