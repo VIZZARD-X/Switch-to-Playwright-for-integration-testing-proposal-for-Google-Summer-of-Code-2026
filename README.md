@@ -122,7 +122,9 @@ Community Bonding Period (May)
 | Dependency Stability (Axe-core or browser driver updates) | To guarantee consistent builds and avoid any surprise disruptions, all external dependencies and Playwright browser binaries will be locked to specific versions within the CI configuration. |
 
 ### 4. About Me
-My name is Vignesh A. I am a student and an active contributor to the Django framework. I have previously authored and merged 8 Pull Requests into Django core, including
+My name is Vignesh A. I am a student and an active contributor to the Django framework. The Google Summer of Code 2026 programme is an incredible opportunity to deepen my involvement in my favourite web framework by working with the core contributors and community on my earlier contributions. I am very appreciative of the help that the core contributors and community members have given me so far in making my first contributions, and I am looking forward to using my time during the summer to improve the testing infrastructure of Django.
+<br><br>
+I have previously authored and merged 8 Pull Requests into Django core, including
 
 - [Fixed #36857 -- Added QuerySet.totally_ordered property.](https://github.com/django/django/pull/20518)
 
@@ -140,4 +142,4 @@ My name is Vignesh A. I am a student and an active contributor to the Django fra
 
 - [Refs #36494 -- Prevented crash in JSONField numeric lookups with expressions.](https://github.com/django/django/pull/20702)
 
-The Google Summer of Code 2026 programme is an incredible opportunity to deepen my involvement in my favourite web framework by working with the core contributors and community on my earlier contributions. I am very appreciative of the help that the core contributors and community members have given me so far in making my first contributions, and I am looking forward to using my time during the summer to improve the testing infrastructure of Django.
+
