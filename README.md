@@ -69,6 +69,7 @@ An examination of ``django/test/selenium.py`` and ``django/contrib/admin/tests.p
 Emulating high-contrast and dark mode across multiple browsers requires using pure CDP commands ``(executeCdpCommand("Emulation.setEmulatedMedia", ...))`` - which limits testing capabilities to Chrome only. Playwright supports this functionality via native API calls for all supported browsers when calling ``page.emulate_media()``.
 #### 2.4.2 Viewport Manipulation Hacks:
 In order to force a DOM resize, the ``AdminSeleniumTestCase.trigger_resize()`` method modifies the width of the window by an increment of 1 pixel, first increasing the size of the window by 1 pixel and then decreasing it ``(self.selenium.set_window_size(width + 1, height))``. With Playwright's predictable rendering characteristics, there is no longer any need to implement such manual reflows.
+<br><br>
 #### 2.4.3 CSP Log Checking: 
 Content Security Policy violations are currently being checked during the ``tearDown`` process using ``get_browser_logs``. However, on non-Chrome browsers, there is an empty list returned by this method because it only works with the ``goog:loggingPrefs`` capability. Instead of requiring that, Playwright has a unified method across all supported browsers for checking CSP violations using ``page.on('console')``.
 #### 2.4.4 Brittle Navigation Waits:
