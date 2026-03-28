@@ -10,7 +10,8 @@ To streamline the process of maintaining and writing end-to-end tests for the co
 ### 1.1 Links
 - [Ticket #13: Use Playwright for integration testing](https://github.com/django/new-features/issues/13)
 - [My PlaywrightTestCase Proof of Concept (Async & Axe Integration)](https://github.com/VIZZARD-X/django/tree/gsoc-playwright-axe-poc/tests/admin_playwright)
-
+<br><br>
+<br><br>
 ## 2. Proposal
 ### 2.1. Thread-Safe PlaywrightTestCase
 One of the biggest challenges that developers face when trying to use Playwright is that Playwright uses an asyncio event loop while Django uses a synchronous database flush operation during ``_fixture_teardown``, causing ``SynchronousOnlyOperation`` exceptions.
@@ -109,9 +110,7 @@ Community Bonding Period (May)
 <br><br>
 <br><br>
 <br><br>
-<br><br>
-<br><br>
-<br><br>
+
 <div style="page-break-before: always;"></div>
 
 #### 3.4. Risks & Mitigation
