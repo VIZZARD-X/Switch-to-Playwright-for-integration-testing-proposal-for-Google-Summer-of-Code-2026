@@ -40,6 +40,8 @@ def assertNoAccessibilityViolations(self, axe_options=None):
 When migrating the existing ~800 test methods, you will need to re-write them so they can run under Playwright. The main difference is that Selenium’s explicit ``wait_for`` helpers and ``find_elements`` call will be replaced with Playwright's built-in auto-waiting locators and ``expect`` assertions.
 The number of lines of code (boilerplate) and the number of imports in the test files will be greatly reduced.
 <br><br>
+<br><br>
+<br><br>
 Before
 ```python
 # Requires importing By, and relying on custom explicit waits
