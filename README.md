@@ -118,7 +118,7 @@ Community Bonding Period (May)
 | Dependency Stability (Axe-core or browser driver updates) | To guarantee consistent builds and avoid any surprise disruptions, all external dependencies and Playwright browser binaries will be locked to specific versions within the CI configuration. |
 
 ### 4. About Me
-My name is Vignesh A. I am a CSE undergrad and an active contributor to the Django framework. The GSoC 2026 program is an incredible opportunity to deepen my involvement in my favourite web framework by working with it's core contributors and chirpy community. Looking forward to using my time during the summer to improve the testing infrastructure of Django.
+My name is Vignesh A. I am a CSE undergrad and an active contributor to the Django framework. The GSoC 2026 program is an incredible opportunity to deepen my involvement in my favourite web framework by working with it's core contributors and chirpy community. Looking forward to using my time during the summer to improve the testing infrastructure of our Django.
 <br><br>
 I have previously authored and merged 8 Pull Requests into Django core, including
 
