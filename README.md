@@ -118,7 +118,7 @@ Community Bonding Period (May)
 
 | Risk | Mitigation Strategy |
 | :--- | :--- |
-| Tests passing locally but fail in CI | I'll be leveraging Playwright's Trace Viewer, which is built right in, to snag failed runs inside GitHub Actions. This will allow me to dissect the DOM and network conditions, frame by frame, at the exact moment things go sideways. |
+| Tests passing locally but fail in CI | I'll be leveraging Playwright's Trace Viewer, which will allow me to dissect the DOM and network conditions, frame by frame, at the exact moment things go sideways. |
 | Missing edge cases covered by Selenium | I'll be running both the Playwright and legacy Selenium test suites simultaneously while we transition. No Selenium tests will be dropped until we've verified identical behavior across all browser engines. |
 | Dependency Stability (Axe-core or browser driver updates) | To guarantee consistent builds and avoid any surprise disruptions, all external dependencies and Playwright browser binaries will be locked to specific versions within the CI configuration. |
 
