@@ -104,8 +104,7 @@ Community Bonding Period (May)
 - Week 11: Remove ``SeleniumTestCase`` entirely. Delete legacy wait helpers, custom exception handlers for Chrome 113+, and drop Selenium from CI dependencies.
 - Week 12: Update Django's internal testing documentation (``docs/internals/contributing/writing-code/unit-tests.txt``). Final review and buffer for community feedback.
 
-<br><br>
-<br><br>
+
 
 
 <div style="page-break-before: always;"></div>
